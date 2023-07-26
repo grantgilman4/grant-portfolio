@@ -7,10 +7,11 @@ interface Props {
   // any props that come into the component
 }
 
-export default function SlideUp({ children, offset = "0px" }: Props) {
+export default function SlideUp({ children }: Props) {
   const ref = useRef(null)
 
   useEffect(() => {
+    const offset = "0px"
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {

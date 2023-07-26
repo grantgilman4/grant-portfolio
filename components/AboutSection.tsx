@@ -39,7 +39,7 @@ const AboutSection = () => {
             <br />
             <p>
               I graduated from Arizona State University, in 2019
-              with a BA focused in Marketing and have recently graduated from Virginia Tech's 
+              with a BA focused in Marketing and have recently graduated from Virginia Tech&#39;s 
               Web Development Program.
             </p>
             <br />
@@ -56,7 +56,7 @@ const AboutSection = () => {
               </span>{" "}
               and that&#39;s what I try to do everyday, I have a passion for
               technology and a desire to always push the limits of what is
-              possible for my team and clients. I am excited for what's next and am
+              possible for my team and clients. I am excited for what&#39;s next and am
               currently open to new opportunities.
             </p>
           </div>
