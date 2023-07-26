@@ -79,7 +79,7 @@ export default function Navbar() {
                   </Link>
                 )
               })}
-              <a  target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vQkEbn4GfXAoQGJTn49JhBi_nfCA0sObnoA0PLQTN4xD_zpkmiu4YMcWtpmuZQjAQ/pub">Resume</a>
+              <a href="https://docs.google.com/document/d/e/2PACX-1vQkEbn4GfXAoQGJTn49JhBi_nfCA0sObnoA0PLQTN4xD_zpkmiu4YMcWtpmuZQjAQ/pub" rel='noopener' target='_blank'>Resume</a>
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}
