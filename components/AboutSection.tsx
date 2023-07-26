@@ -5,14 +5,14 @@ const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
+  { skill: "Node" },
+  { skill: "SQL" },
   { skill: "React" },
-  { skill: "Next.js" },
+  { skill: "REST API" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Agile" },
+  { skill: "Linux" },
 ]
 
 const AboutSection = () => {
@@ -21,7 +21,7 @@ const AboutSection = () => {
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-4 bg-orange-500 border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
@@ -30,35 +30,34 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
+              Hi, my name is Grant and I am a{" "}
+              <span className="font-bold">{"driven"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              <span className="font-bold">{" passionate"}</span> software developer & account manager
+              based in Richmond, VA.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Arizona State University, in 2019
+              with a BA focused in Marketing and have recently graduated from Virginia Tech's 
+              Web Development Program.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              From playing sports, trying new foods, to making rugs,
+              I am always looking to learn new things and get involved in the community.
             </p>
             <br />
             <p>
               I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
+              <span className="font-bold text-orange-500">
+                always be kind
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
+              and that&#39;s what I try to do everyday, I have a passion for
               technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              possible for my team and clients. I am excited for what's next and am
+              currently open to new opportunities.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">

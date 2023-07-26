@@ -5,7 +5,7 @@ import { Link } from "react-scroll/modules"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
-import { IoMdMenu, IoMdClose } from "react-icons/io"
+import { IoMdMenu, IoMdClose, } from "react-icons/io"
 
 interface NavItem {
   label: string
@@ -39,7 +39,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">Hosna Qasmei</h2>
+                <h2 className="text-2xl font-bold">Grant Gilman</h2>
               </div>
             </Link>
             <div className="md:hidden">
@@ -66,7 +66,7 @@ export default function Navbar() {
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
                     }
                     activeClass="active"
                     spy={true}
@@ -79,6 +79,7 @@ export default function Navbar() {
                   </Link>
                 )
               })}
+              <a  target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vQkEbn4GfXAoQGJTn49JhBi_nfCA0sObnoA0PLQTN4xD_zpkmiu4YMcWtpmuZQjAQ/pub">Resume</a>
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}
