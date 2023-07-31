@@ -18,7 +18,7 @@ const projects = [
     description: "Mock e-commerce web application focused on selling coffee vessels to consumers.",
     image: "/mugs.png",
     github: "https://github.com/dreamteamcapstone/mugs-ecom",
-    link: "https://mugs-ecom.fly.dev/",
+    link: "https://github.com/dreamteamcapstone/mugs-ecom",
   },
 ]
 
