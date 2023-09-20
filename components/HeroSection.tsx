@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-orange-500">
               Web Developer{" "}
             </span>
-            currently based in Richmond, VA. Focused on creating software with the user in mind.
+            currently based in Virginia. Focused on Software Development and Information Technology.
           </p>
           <Link
             to="projects"

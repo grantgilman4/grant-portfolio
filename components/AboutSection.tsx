@@ -33,14 +33,14 @@ const AboutSection = () => {
               Hi, my name is Grant and I am a{" "}
               <span className="font-bold">{"driven"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" passionate"}</span> software developer & account manager
-              based in Richmond, VA.
+              <span className="font-bold">{" passionate"}</span> Software Developer and Data Analyst
+              based in Virginia.
             </p>
             <br />
             <p>
               I graduated from Arizona State University, in 2019
-              with a BA focused in Marketing and have recently graduated from Virginia Tech&#39;s 
-              Web Development Program.
+              with a BA focused in Marketing and IT. Recently I graduated from Virginia Tech&#39;s 
+              Software Development Program.
             </p>
             <br />
             <p>
