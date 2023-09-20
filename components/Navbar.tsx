@@ -79,7 +79,7 @@ export default function Navbar() {
                   </Link>
                 )
               })}
-              <a href="https://docs.google.com/document/d/1ZkXsB5HZ99X_fQdEwppbLU8dSBmfyXr4/edit?usp=sharing&ouid=111881514041784590831&rtpof=true&sd=true" rel='noreferrer' target='_blank'>Resume</a>
+              <a href="/GrantGilmanResume-9-20.pdf" rel='noreferrer' target='_blank'>Resume</a>
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}
